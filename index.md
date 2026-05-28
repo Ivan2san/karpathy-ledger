@@ -60,6 +60,7 @@ Catalog of every principle by section. IDs are permanent and never reused.
 - P63 Move in macro actions, not lines of code
 - P64 Personality and reward calibration matter
 - P65 Trust gating is the legitimate brake on full adoption
+- P113 The LLM Council pattern
 
 ## Part 6: Deployment reality
 - P34 The march of nines

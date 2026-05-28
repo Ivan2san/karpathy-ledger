@@ -2,7 +2,7 @@
 
 **P5. Agents are bad at code that has never been written before.** This is the asymmetry that constrains the "AI automates AI research" story. They cannot hold a non-standard style across a codebase, they revert to internet-typical patterns, and they add defensive bloat. `[DWA 00:29:45]`
 
-**P6. Jagged intelligence has two axes.** Capability spike is roughly verifiability times training attention times data coverage times economic value. The model flies inside the reinforcement-learning circuits and falls off them outside. The car-wash example: a state-of-the-art model tells you to walk 50 metres because it is "close", while the same model refactors a 100k-line codebase. `[SEQ-B, VER]`
+**P6. Jagged intelligence has two axes.** Capability spike is roughly verifiability times training attention times data coverage times economic value. The model flies inside the reinforcement-learning circuits and falls off them outside. The car-wash example: a state-of-the-art model tells you to walk 50 metres because it is "close", while the same model refactors a 100k-line codebase. `[SEQ-B, VER, LC]`
 
 **P7. The founder question: are you on the model's rails?** The practical test before betting on a model for a workflow. Is the task verifiable AND has the lab pushed training data there? If not, expect to bring your own evals, fine-tuning, or reinforcement-learning environment. `[SEQ-B, NP 26:00]`
 

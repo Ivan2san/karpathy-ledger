@@ -9,6 +9,7 @@ Chronological. Karpathy-direct sources are authoritative. Field-test sources are
 | AvG | 2 Oct 2025 | essay | Animals vs Ghosts | https://karpathy.bearblog.dev/animals-vs-ghosts/ |
 | DWA | Oct 2025 | podcast | Dwarkesh Patel interview (AGI is still a decade away) | https://www.dwarkesh.com/ |
 | VER | 17 Nov 2025 | essay | Verifiability | https://karpathy.bearblog.dev/verifiability/ |
+| LC | 22 Nov 2025 | repo | LLM Council | https://github.com/karpathy/llm-council |
 | SoM | 30 Nov 2025 | essay | The Space of Minds | https://karpathy.bearblog.dev/the-space-of-minds/ |
 | YR25 | 20 Dec 2025 | essay | 2025 LLM Year in Review | https://karpathy.bearblog.dev/year-in-review-2025/ |
 | AR | Mar 2026 | repo | AutoResearch README | https://github.com/karpathy/autoresearch |

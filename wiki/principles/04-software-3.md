@@ -12,7 +12,7 @@
 
 **P21. The verifiability environment test: resettable, efficient, rewardable.** Before assuming a task is automatable in the new paradigm, run the three-part test. Can you start a clean new attempt (resettable)? Can the agent practise many attempts cheaply (efficient)? Is there an automated process to score each attempt (rewardable)? Fail any one and the task is not in the sweet spot. The operational form of P16. `[VER]`
 
-**P22. The startup wedge is valuable plus verifiable plus undertrained.** Coding and maths are heavily targeted by the labs. Many economically important domains have latent verifiable structure that has not been exploited. That gap is where to build. And almost everything is verifiable to some degree, even writing via a council of LLM judges; the frontier is ease, not possibility. `[SEQ-T 15:14, SEQ-B]`
+**P22. The startup wedge is valuable plus verifiable plus undertrained.** Coding and maths are heavily targeted by the labs. Many economically important domains have latent verifiable structure that has not been exploited. That gap is where to build. And almost everything is verifiable to some degree, even writing via a council of LLM judges; the frontier is ease, not possibility. `[SEQ-T 15:14, SEQ-B, LC]`
 
 **P23. Markdown is the programming language of Software 3.0.** In AutoResearch, `program.md` is "essentially a super lightweight skill" and the only file the human edits, while the agent edits the code. The roles invert: humans write prose, agents write code. `[AR, WIKI]`
 
@@ -20,4 +20,4 @@
 
 **P56. The Software 3.0 predicate (inferred): integratability.** Verifiability gives the 1.0 and 2.0 predicates. The LLM Wiki gist suggests the 3.0 predicate: a task suits Software 3.0 if its outputs can be incrementally integrated into a persistent, evolving structure that compounds. Code generation qualifies (AutoResearch); knowledge work qualifies (LLM Wiki); one-off creative tasks probably do not. Marked inferred, not stated by Karpathy; revise if a later source contradicts. `[WIKI, inferred]`
 
-**P61. There is a structural overproduction of bespoke apps.** Most consumer apps should not exist as apps; they should be APIs that agents glue together with intelligence on the fly. The Dobby home-automation setup proves the principle: an agent hacked into Sonos, lights, HVAC, pool, and security by IP scan plus web search plus API discovery, collapsing six apps into one chat. `[NP 13:00]`
+**P61. There is a structural overproduction of bespoke apps.** Most consumer apps should not exist as apps; they should be APIs that agents glue together with intelligence on the fly. The Dobby home-automation setup proves the principle: an agent hacked into Sonos, lights, HVAC, pool, and security by IP scan plus web search plus API discovery, collapsing six apps into one chat. `[NP 13:00, LC]`

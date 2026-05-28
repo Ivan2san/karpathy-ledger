@@ -1,6 +1,6 @@
 # Part 5: Agentic engineering as a discipline
 
-**P25. Vibe coding raises the floor; agentic engineering raises the ceiling.** Vibe coding lets anyone build software by describing it. Agentic engineering is the professional discipline of coordinating fallible agents while preserving correctness, security, taste, and maintainability. The first is fine for prototypes; the second is what serious teams need. `[SEQ-B]`
+**P25. Vibe coding raises the floor; agentic engineering raises the ceiling.** Vibe coding lets anyone build software by describing it. Agentic engineering is the professional discipline of coordinating fallible agents while preserving correctness, security, taste, and maintainability. The first is fine for prototypes; the second is what serious teams need. `[SEQ-B, LC]`
 
 **P26. The new 10x is much more than 10x (cautious version).** Karpathy's actual phrasing is that people very good at agentic workflows seem to peak well beyond the old 10x benchmark, because they parallelise judgement, not just code. Anecdotal, not measured. Directional, not benchmarked. `[SEQ-T 17:11]`
 
@@ -25,3 +25,5 @@
 **P64. Personality and reward calibration matter.** When Claude gives praise, Karpathy feels he slightly deserves it because it does not over-reward weak ideas; Codex is "dry" and indifferent to what you are building. Not a vibes claim: a calibrated reward signal from the agent shapes the human's behaviour over time. Pick tools with calibration appropriate to the work. `[NP 8:10]`
 
 **P65. Trust gating is the legitimate brake on full adoption.** Karpathy has not given his agent access to email or calendar; it is "still very new and rough around the edges". Security, privacy, and the cost of mistakes scale with the surface area you grant. Permissioning is not an afterthought, it is the deliberate choke point that makes everything else safe. Reinforces P42. `[NP 16:00]`
+
+**P113. The LLM Council pattern.** A practical coordination technique: query multiple models in parallel; each ranks the others' outputs blind to identity (so favouritism does not bias the ranking); a chairman model synthesises the final answer. The architecture exploits jagged intelligence across models (P6) and operationalises the "council of LLM judges" mentioned in P22. The chairman is itself a single model, so the pattern reduces single-model dependency without eliminating it. Karpathy describes the implementation as a weekend vibe-coded hack. `[LC]`
