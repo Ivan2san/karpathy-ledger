@@ -6,6 +6,8 @@ Run the lint workflow on the Karpathy Ledger as defined in @AGENTS.md (§Lint wo
 
 **Report findings before changing anything.** This is a review pass, not an edit pass.
 
+**Hard rule: do not edit any file in this pass.** Output findings as a list and stop. Even if a fix looks trivial or obvious, do not apply it. Wait for explicit human triage.
+
 Check for:
 
 1. **Silent supersessions** — principles that newer sources have effectively superseded but that were never marked `SUPERSEDED`.
