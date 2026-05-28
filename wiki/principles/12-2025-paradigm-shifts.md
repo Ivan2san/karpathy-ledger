@@ -1,0 +1,27 @@
+# Part 12: The 2025 paradigm shifts
+
+Karpathy's own named shifts from his 2025 Year in Review. These consolidate frames that other sources implied.
+
+**P92. RLVR is the load-bearing 2025 paradigm shift.** Reinforcement Learning from Verifiable Rewards emerged as a new major training stage on top of pretraining, supervised finetuning, and RLHF. Trained against automatically verifiable rewards (maths, code), models spontaneously develop reasoning strategies that were impossible to elicit via supervised finetuning, because the optimal traces are not known in advance and the model has to find them. Unlike the thin earlier stages, RLVR is a long stage, and it absorbed the compute originally meant for pretraining, which is why 2025 models are similar-sized to 2024 ones but better. The o1 model was the first demonstration; o3 was the felt inflection. `[YR25]`
+
+**P93. RLVR creates a new scaling law: test-time compute.** Capability now scales with reasoning-trace length. "Thinking time" is a controllable lever. Structurally new, since previous scaling laws were all training-time. `[YR25]`
+
+**P94. The LLM app layer is real, and Cursor proved it.** A new layer above the model labs does four things: context engineering, orchestrating multiple LLM calls into increasingly complex graphs balancing cost and quality, providing an application-specific GUI for the human, and offering an autonomy slider. This is the operational definition of an LLM app, and "Cursor for X" is now a recognised startup shape. `[YR25]`
+
+**P95. Karpathy's bet on lab-versus-app value capture.** The labs trend toward graduating a generally capable college student; the apps organise, finetune, and animate teams of them into deployed professionals in specific verticals by supplying private data, sensors, actuators, and feedback loops. The labs ship the raw intelligence; the apps ship the working employee. Both layers persist. `[YR25]`
+
+**P96. Localhost beats cloud for agents in the current era.** Anthropic's choice to run Claude Code on the developer's computer with their environment, data, secrets, and config was correct; early cloud-container approaches were wrong. In a slow-takeoff, jagged-capability world, you want agents inside the already-booted environment with low-latency interaction. The distinction that matters is not where the ops run, but whether the agent has the existing context. Pick the form factor that gives the agent context, not the one that maximises compute. `[YR25]`
+
+**P97. Vibe coding terraforms software.** 2025 crossed the threshold where impressive programs can be built purely in English. Three effects: programming is no longer reserved for professionals; professionals write far more software that would otherwise never exist; and code becomes ephemeral, malleable, and discardable. Karpathy vibe-coded whole apps just to find a single bug, because code is suddenly free. Not "AI makes coders faster" but "code is now disposable infrastructure". `[YR25]`
+
+**P98. Nano Banana is a first hint of the LLM GUI.** Text is the favoured format for computers and LLMs but not for humans, who prefer visual and spatial information; traditional computing solved this with the GUI. LLMs need their own GUI: images, infographics, slides, whiteboards, animations, web apps. Markdown and emoji are proto-versions. The notable thing about Nano Banana is the joint capability of text, image, and world knowledge tangled in the same weights. `[YR25]`
+
+**P99. LLMs are the next computing paradigm, replaying 1970s and 80s innovations.** Just as classical computing produced personal computing, microcontrollers, the internet, and the GUI, the LLM era will produce equivalents: the cognitive core is the microcontroller equivalent, the agent web is the internet equivalent, the LLM GUI is the GUI equivalent. A generative prediction tool: ask "what is the LLM-era version of computing innovation X?" `[YR25, NP]`
+
+**P100. Power to the people: LLMs invert the normal technology diffusion pattern.** Historically, new technology benefits professionals, corporations, and governments more than regular people. LLMs are the first technology where the inversion holds: regular people benefit more. Vibe coding is one example; direct access to expertise that previously required hiring is another. Anyone betting on an LLM business model should ask whether they are betting on the normal pattern (institutions capture value) or the new one (individuals do). `[YR25]`
+
+**P101. Benchmark trust collapse.** Benchmarks are by construction verifiable environments, so they are immediately susceptible to RLVR and to synthetic data generation. Labs grow capability spikes near benchmark embedding spaces; training on the test set is "a new art form". Do not trust benchmark numbers in 2026 the way you did in 2023. Run your own evals on your own workflows. `[YR25]`
+
+**P102. The Karpathy paradox: smarter and dumber than expected, at once.** His summary of 2025: LLMs are a new kind of intelligence, simultaneously a lot smarter and a lot dumber than expected. This is the calibrated posture. Anyone whose worldview holds only one of these is uncalibrated. `[YR25]`
+
+**P103. We have realised less than 10 percent of present capability.** Even at today's model quality, the field has barely scratched the surface; most workflows are not refactored and most applications are not built. The implication: even if model progress stopped today, there would be years of value-extraction work. The counter to "we need the next model before this matters". `[YR25]`

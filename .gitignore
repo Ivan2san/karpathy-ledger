@@ -1,0 +1,8 @@
+# Keep full local copies of source texts out of the public repo (copyright).
+# Put offline reading copies here if you want them for local agent ingest.
+raw/_local/
+*.local.md
+
+# OS / editor cruft
+.DS_Store
+.obsidian/workspace*

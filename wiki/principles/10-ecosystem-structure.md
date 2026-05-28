@@ -1,0 +1,9 @@
+# Part 10: Ecosystem and structure
+
+**P71. Independent and frontier-lab cycling is the safest position for top researchers.** Stay too long inside a frontier lab and you cannot say what you actually think; stay too long outside and your intuitions drift from the real frontier. The healthy posture is to cycle: inside for a stretch, then outside, then inside again. Notably, this was Karpathy's framing weeks before he joined Anthropic. `[NP 44:00]`
+
+**P72. Open source is roughly six to eight months behind frontier, and that gap is structurally healthy.** Open-source models eat the previous frontier's use cases while closed labs push the new edge, much like Linux against Windows and macOS. Centralisation has a poor track record. The demand for a common open platform is permanent. The current "by accident, optimal" balance is worth defending. `[NP 49:00]`
+
+**P73. The labs are speciation-bottlenecked.** Despite obvious pressure from cost, latency, and specific use cases, we are not yet seeing the model speciation one might expect. Monoculture persists because the science of "manipulating the brains" (finetuning without losing capability, deeper-than-context customisation) is undeveloped, and because the labs are still chasing totality. Niche, domain-specific models will eventually fall out. `[NP 28:30]`
+
+**P74. Untrusted distributed research is the next frontier of open science.** The Folding@home and SETI@home pattern applied to AI. The verifiability property (easy to check a candidate commit, hard to find one) makes it tractable. An untrusted swarm could collaborate to improve LLMs and potentially run circles around the frontier labs, with compute rather than money becoming the unit of contribution. Tentative, but consistent with the AutoResearch architecture. `[NP 33:00]`
