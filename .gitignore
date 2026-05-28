@@ -5,4 +5,4 @@ raw/_local/
 
 # OS / editor cruft
 .DS_Store
-.obsidian/workspace*
+.obsidian/

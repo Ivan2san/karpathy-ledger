@@ -75,6 +75,16 @@ Two or three sentences, paraphrased, in the maintainer's own words.
 - Short paraphrased bullets of the load-bearing points, each mapped to the principle id(s) it supports.
 ```
 
+## Commit conventions
+
+Git history is part of the ledger's evolution record. Keep commit messages greppable and aligned with `log.md` entries.
+
+- **Ingest:** `Ingest: <tag> <source name>` (for example `Ingest: NP2 No Priors follow-up`). One commit per source. Pairs with the `## [YYYY-MM-DD] ingest | <Source title>` entry in `log.md`.
+- **Lint:** `Lint: YYYY-MM` (for example `Lint: 2026-06`). One commit per monthly lint pass, after the human has triaged findings. Pairs with the `## [YYYY-MM-DD] lint` entry in `log.md`.
+- **Schema or housekeeping changes** (edits to this file, `README.md`, `.gitignore`, etc.) use a short conventional prefix: `docs:`, `chore:`, `refactor:`.
+
+The `/ingest` and `/lint` slash commands in `.claude/commands/` execute the workflows defined above and stop before commit so the human can review the diff.
+
 ## What lives elsewhere
 
 The maintainer's applied or strategic layer (any application of these principles to a specific business or context) is kept in a separate, private location. It must never be merged into this repo. This repo is Karpathy's thinking only, so that his ideas and the maintainer's inferences never blur.
