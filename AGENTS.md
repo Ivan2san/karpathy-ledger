@@ -85,6 +85,12 @@ Git history is part of the ledger's evolution record. Keep commit messages grepp
 
 The `/ingest` and `/lint` slash commands in `.claude/commands/` execute the workflows defined above and stop before commit so the human can review the diff.
 
+## Outputs (export-only)
+
+Authored deliverables generated from the ledger (reports, briefings, teaching artefacts) live in `outputs/` as `YYYY-MM-DD_short-name.md`. They are distinct from the wiki: the wiki is faithful synthesis of Karpathy's sources; outputs add selection, audience, and framing for a purpose.
+
+Critical: outputs are export-only. They never feed back into `wiki/principles/`. Unlike an applied knowledge base, nothing an output reasons to is filed back as a principle, because the corpus is single-author and your framing is not Karpathy's claim. New principles arrive ONLY through ingest of a Karpathy-direct source. If a deliverable needs applied or business-specific framing, it does not belong in this repo at all.
+
 ## What lives elsewhere
 
 The maintainer's applied or strategic layer (any application of these principles to a specific business or context) is kept in a separate, private location. It must never be merged into this repo. This repo is Karpathy's thinking only, so that his ideas and the maintainer's inferences never blur.
