@@ -1,0 +1,25 @@
+{
+  "author": "Andrej Karpathy",
+  "slug": "karpathy",
+  "scope": "LLMs and agentic engineering",
+  "github_owner": "Ivan2san",
+  "direct_weight_label": "Karpathy-direct",
+
+  "feeds": {
+    "github": "https://github.com/karpathy.atom",
+    "bearblog": "https://karpathy.bearblog.dev/feed/",
+    "medium": "https://karpathy.medium.com/feed"
+  },
+
+  "digest_feeds": {
+  },
+
+  "static": {
+    "karpathy.ai": "https://karpathy.ai/",
+    "eurekalabs.ai": "https://eurekalabs.ai/"
+  },
+
+  "youtube_handle": "AndrejKarpathy",
+
+  "coined_terms": ["summoning ghosts", "crappy evolution", "sucking supervision through a straw"]
+}
