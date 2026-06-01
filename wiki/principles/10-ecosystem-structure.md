@@ -1,6 +1,6 @@
 # Part 10: Ecosystem and structure
 
-**P71. Independent and frontier-lab cycling is the safest position for top researchers.** Stay too long inside a frontier lab and you cannot say what you actually think; stay too long outside and your intuitions drift from the real frontier. The healthy posture is to cycle: inside for a stretch, then outside, then inside again. Notably, this was Karpathy's framing weeks before he joined Anthropic. `[NP 44:00]`
+**P71. Independent and frontier-lab cycling is the safest position for top researchers.** Stay too long inside a frontier lab and you cannot say what you actually think; stay too long outside and your intuitions drift from the real frontier. The healthy posture is to cycle: inside for a stretch, then outside, then inside again. Notably, this was Karpathy's framing about two months before he joined Anthropic. `[NP 44:00]`
 
 **P72. Open source is roughly six to eight months behind frontier, and that gap is structurally healthy.** Open-source models eat the previous frontier's use cases while closed labs push the new edge, much like Linux against Windows and macOS. Centralisation has a poor track record. The demand for a common open platform is permanent. The current "by accident, optimal" balance is worth defending. `[NP 49:00]`
 

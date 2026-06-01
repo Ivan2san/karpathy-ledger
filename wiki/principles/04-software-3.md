@@ -2,7 +2,7 @@
 
 **P16. The two paradigm rules, cleanly stated.** Software 1.0 easily automates what you can specify. Software 2.0 easily automates what you can verify. The single sharpest line in the corpus. Every "should we build, automate, or outsource this?" question runs through these two filters first. `[VER]`
 
-**P17. AI is a new computing paradigm, not a new technology.** The strongest historical analogy is not electricity or the industrial revolution; it is computing itself. Both are fundamentally about automating digital information processing. This frames diffusion and timelines: AI spreads like computing did, in pieces over years, not as a single discrete invention. `[VER, DWA]`
+**P17. AI is a new computing paradigm, not a new technology.** The strongest historical analogy is not electricity or the industrial revolution; it is computing itself. Both are fundamentally about automating digital information processing. This frames diffusion and timelines: AI spreads like computing did, in pieces over years, not as a single discrete invention. The sharper, generative form of this claim is P99 (the LLM era replays specific 1970s and 80s computing innovations). `[VER, DWA]`
 
 **P18. The 1980s analogy: specifiability then, verifiability now.** To forecast which jobs computing would automate around 1980, you asked whether a task was mechanically specifiable (typing, bookkeeping). The equivalent question now is whether a task is verifiable. Same shape of question, different predicate. The cleanest non-technical framing for stakeholders. `[VER]`
 

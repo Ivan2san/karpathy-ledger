@@ -20,7 +20,7 @@ Predicate (P16, P56) to environment test (P21) to AutoResearch implementation (P
 
 ## 3. Three implementations of the new paradigm
 
-AutoResearch (autonomous loop), LLM Wiki (accumulating artefact), and Dobby (agent as glue over APIs). All three are Software 3.0. None look like each other operationally. Most workflows resemble the Wiki more than AutoResearch.
+AutoResearch (autonomous loop), LLM Wiki (accumulating artefact), and Dobby (agent as glue over APIs, P115). All three are Software 3.0. None look like each other operationally. Most workflows resemble the Wiki more than AutoResearch.
 
 ## 4. The 10x-becomes-100x claim has three mechanisms, not measurement
 
@@ -32,7 +32,7 @@ Specifiability then, verifiability now (P18), extending to integratability (P56)
 
 ## 6. The orchestration stack
 
-Karpathy's own enumeration of six layers, each a separate skill ceiling: LLM, agent, persistent harness, multiple harnesses in parallel, instructions to them, and optimisation over the instructions. The "psychosis" (P57) is the recognition that all six are simultaneously underdeveloped.
+Karpathy's own enumeration of six layers, each a separate skill ceiling: LLM, agent, persistent harness, multiple harnesses in parallel, instructions to them, and optimisation over the instructions (now P114). The "psychosis" (P57) is the recognition that all six are simultaneously underdeveloped.
 
 ## 7. The verifiability operational chain
 

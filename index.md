@@ -61,6 +61,7 @@ Catalog of every principle by section. IDs are permanent and never reused.
 - P64 Personality and reward calibration matter
 - P65 Trust gating is the legitimate brake on full adoption
 - P113 The LLM Council pattern
+- P114 The orchestration stack is six layers, each its own skill ceiling
 
 ## Part 6: Deployment reality
 - P34 The march of nines
@@ -78,6 +79,7 @@ Catalog of every principle by section. IDs are permanent and never reused.
 - P42 "Disable all permissions" is part of the design
 - P43 Future state: agents represent people and organisations
 - P68 People want AI personas, not raw LLMs
+- P115 The agent-as-glue orchestrator (Dobby) is the third reference implementation
 
 ## Part 8: What remains human
 - P44 You can outsource thinking, not understanding

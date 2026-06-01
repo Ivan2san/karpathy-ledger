@@ -3,9 +3,9 @@
 - Tag: DWA
 - Type: podcast
 - Author: Andrej Karpathy (with Dwarkesh Patel)
-- Date: Oct 2025
+- Date: 17 Oct 2025
 - Weight: direct
-- Link: https://www.dwarkesh.com/
+- Link: https://www.dwarkesh.com/p/andrej-karpathy
 
 ## Summary
 A long-form conversation. Karpathy argues for a "decade of agents" rather than a year, explains why reinforcement learning is weak, why agents struggle with code never written before, and why deployment follows a march of nines. Also the origin of several mental models: weights as hazy recollection versus context as working memory, and the cognitive core.
