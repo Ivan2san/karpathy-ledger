@@ -7,16 +7,16 @@
   "feeds": {
     "bearblog": {
       "seen": [
-        "https://karpathy.bearblog.dev/auto-grade-hn/",
-        "https://karpathy.bearblog.dev/chemical-hygiene/",
-        "https://karpathy.bearblog.dev/animals-vs-ghosts/",
-        "https://karpathy.bearblog.dev/finding-the-best-sleep-tracker/",
-        "https://karpathy.bearblog.dev/year-in-review-2025/",
+        "https://karpathy.bearblog.dev/the-space-of-minds/",
         "https://karpathy.bearblog.dev/sequoia-ascent-2026/",
         "https://karpathy.bearblog.dev/vibe-coding-menugen/",
+        "https://karpathy.bearblog.dev/animals-vs-ghosts/",
         "https://karpathy.bearblog.dev/power-to-the-people/",
+        "https://karpathy.bearblog.dev/auto-grade-hn/",
+        "https://karpathy.bearblog.dev/finding-the-best-sleep-tracker/",
+        "https://karpathy.bearblog.dev/chemical-hygiene/",
         "https://karpathy.bearblog.dev/verifiability/",
-        "https://karpathy.bearblog.dev/the-space-of-minds/"
+        "https://karpathy.bearblog.dev/year-in-review-2025/"
       ]
     },
     "github": {
@@ -27,43 +27,44 @@
     },
     "medium": {
       "seen": [
+        "https://medium.com/p/a64152b37c35",
+        "https://medium.com/p/ab8a1085a106",
         "https://medium.com/p/649181b07fa0",
+        "https://medium.com/p/bad8d2943f5d",
         "https://medium.com/p/5f51f2b43867",
         "https://medium.com/p/e2f06eab496b",
-        "https://medium.com/p/bad8d2943f5d",
-        "https://medium.com/p/d1488ac5c131",
         "https://medium.com/p/c47718cb95a5",
-        "https://medium.com/p/ab8a1085a106",
-        "https://medium.com/p/a64152b37c35"
+        "https://medium.com/p/d1488ac5c131"
       ]
     },
     "youtube": {
       "seen": [
-        "yt:video:-j8PzkZ70Lg",
-        "yt:video:Y7ImxZ_YhJk",
-        "yt:video:ZHXt0-_gSj4",
-        "yt:video:QLu_ZsRc_G0",
+        "yt:video:l6DKRf-fAAM",
         "yt:video:7gG91SZwBoE",
-        "yt:video:4h5BEALuh44",
-        "yt:video:fsLh-NYhOoU",
-        "yt:video:BHdbsHFs2P0",
-        "yt:video:bnjKwiUg-kw",
-        "yt:video:j0wJBEZdwLs",
         "yt:video:ldxFjLJ3rVY",
-        "yt:video:FE-hM1kRK4Y",
-        "yt:video:Qoes9bTJtn0",
+        "yt:video:Y7ImxZ_YhJk",
+        "yt:video:BHdbsHFs2P0",
+        "yt:video:-j8PzkZ70Lg",
         "yt:video:d0ai33oqqDE",
-        "yt:video:t3jZ2xGOvYg"
+        "yt:video:4h5BEALuh44",
+        "yt:video:j0wJBEZdwLs",
+        "yt:video:t3jZ2xGOvYg",
+        "yt:video:ZHXt0-_gSj4",
+        "yt:video:bnjKwiUg-kw",
+        "yt:video:FE-hM1kRK4Y",
+        "yt:video:QLu_ZsRc_G0",
+        "yt:video:fsLh-NYhOoU",
+        "yt:video:Qoes9bTJtn0"
       ]
     }
   },
   "static": {
     "eurekalabs.ai": {
-      "checked_at": 1780800850,
+      "checked_at": 1780887422,
       "sha256": "7dd89cb3e0861d67064f65092e83ea55aec59ac89665f2ba77337437210747eb"
     },
     "karpathy.ai": {
-      "checked_at": 1780800850,
+      "checked_at": 1780887422,
       "sha256": "0c583717e0208480e7cf0a2560ed75479acb1b18a251070e5541657205be141d"
     }
   }
