@@ -7,6 +7,9 @@ raw/_local/
 .DS_Store
 .obsidian/
 
+# Machine-local MCP server config (may carry credentials)
+.mcp.json
+
 # Outputs: authored briefings stay private; only the README is tracked
 # so the layer's intent is documented in the public repo.
 outputs/*
