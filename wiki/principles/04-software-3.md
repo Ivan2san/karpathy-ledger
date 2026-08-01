@@ -8,7 +8,7 @@
 
 **P19. Software 3.0: the context window is the program, the LLM is the interpreter.** 1.0 is explicit code, 2.0 is learned weights, 3.0 is programming an LLM through prompts, context, tools, examples, memory, and instructions. The unit of programming shifts from a function to a paragraph. `[SEQ-B]`
 
-**P20. Some apps should not exist.** When a multimodal model can transform input directly to output (the MenuGen photo becomes an overlaid menu image via one model call), the entire app stack between them is scaffolding. Do not only ask "what can AI speed up?" Ask "what should disappear entirely?" Reinforced by the smart-home example where six apps collapsed into one chat. `[SEQ-B, NP 9:30]`
+**P20. Some apps should not exist.** When a multimodal model can transform input directly to output (the MenuGen photo becomes an overlaid menu image via one model call), the entire app stack between them is scaffolding. Do not only ask "what can AI speed up?" Ask "what should disappear entirely?" Reinforced by the smart-home example where six apps collapsed into one chat. The claim originates with MenuGen, where Karpathy's own conclusion was that the same function might sit better as a prompt-shaped artefact than as a full app with auth and payments. `[MG, SEQ-B, NP 9:30]`
 
 **P21. The verifiability environment test: resettable, efficient, rewardable.** Before assuming a task is automatable in the new paradigm, run the three-part test. Can you start a clean new attempt (resettable)? Can the agent practise many attempts cheaply (efficient)? Is there an automated process to score each attempt (rewardable)? Fail any one and the task is not in the sweet spot. The operational form of P16. `[VER]`
 

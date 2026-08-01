@@ -7,6 +7,7 @@ Chronological. Karpathy-direct sources are authoritative. Field-test sources are
 | Tag | Date | Type | Title | Link |
 |-----|------|------|-------|------|
 | PTP | 7 Apr 2025 | essay | Power to the People (pre-window, see note) | https://karpathy.bearblog.dev/power-to-the-people/ |
+| MG | 27 Apr 2025 | essay | Vibe coding MenuGen (pre-window, see note) | https://karpathy.bearblog.dev/vibe-coding-menugen/ |
 | AvG | 2 Oct 2025 | essay | Animals vs Ghosts | https://karpathy.bearblog.dev/animals-vs-ghosts/ |
 | DWA | 17 Oct 2025 | podcast | Dwarkesh Patel interview (AGI is still a decade away) | https://www.dwarkesh.com/p/andrej-karpathy |
 | VER | 17 Nov 2025 | essay | Verifiability | https://karpathy.bearblog.dev/verifiability/ |

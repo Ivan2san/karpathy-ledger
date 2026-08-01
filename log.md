@@ -77,6 +77,23 @@ Source: https://karpathy.bearblog.dev/power-to-the-people/ (essay, 7 Apr 2025). 
 
 **Added:** no new principle. The contingency is a sharpening of P100, not a separate claim. Added instead to `open-questions.md` as a watch item, since P100 is now one of the few principles carrying a stated expiry condition.
 
+## [2026-08-01] ingest | Vibe coding MenuGen
+Source: https://karpathy.bearblog.dev/vibe-coding-menugen/ (essay, 27 Apr 2025). Tagged `MG`. Backfilled from the coverage gap recorded in this morning's lint.
+
+**Scope note.** Pre-window by six months, admitted on the same basis as PTP: it is the primary source behind four principles that had all been tagged to the SEQ talk of Apr 2026, a year later. The window is unchanged.
+
+**Reinforced** (tag added, claim already correct):
+- P20 (some apps should not exist). The claim originates here; Karpathy's own conclusion was that the function might sit better as a prompt-shaped artefact than a full app with auth and payments. Now `[MG, SEQ-B, NP 9:30]`.
+
+**Sharpened:**
+- P40 (the MenuGen deployment test). The principle named MenuGen without citing it. Added the origin: the test comes from a real attempt to ship, where building was quick and shipping was the slog, and several failures were configuration rather than code. Added Karpathy's phrase for the experience, "assembling IKEA furniture from the future". Now `[MG, SEQ-B]`.
+- P38 (rebuild the stack for agents). The list of agent-native surfaces originates here, stated as CLIs, curl-configurable backends, and markdown documentation instead of click-through UIs. Now `[MG, SEQ-B]`.
+- P39 (any "go to this URL, click here" doc is legacy). Added the mechanism, which the SEQ-T restatement leaves implicit: an LLM cannot manipulate configuration state spread across browser tabs and provider dashboards, so such an instruction is unexecutable rather than merely tedious. Now `[MG, SEQ-T 25:53]`.
+
+**Contradicted:** none.
+
+**Added:** no new principle. Everything in the essay lands on existing ids. The temptation was to mint one for the build-versus-ship asymmetry, but that is what P40 already says.
+
 ## How to add the next entry
 When ingesting a new source, append a dated line in the form:
 `## [YYYY-MM-DD] ingest | <Source title>`
