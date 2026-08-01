@@ -91,6 +91,8 @@ Authored deliverables generated from the ledger (reports, briefings, teaching ar
 
 Critical: outputs are export-only. They never feed back into `wiki/principles/`. Unlike an applied knowledge base, nothing an output reasons to is filed back as a principle, because the corpus is single-author and your framing is not Karpathy's claim. New principles arrive ONLY through ingest of a Karpathy-direct source. If a deliverable needs applied or business-specific framing, it does not belong in this repo at all.
 
+Note that this is a deliberate departure from P52 (Karpathy-direct) and P84 (field-test), both of which require findings to flow back into the wiki. The departure is a consequence of single-author purity, not a judgement that those principles are wrong. Per the no-smoothing rule, the tension is flagged in P52 and P84 themselves rather than resolved in favour of this file.
+
 ## What lives elsewhere
 
 The maintainer's applied or strategic layer (any application of these principles to a specific business or context) is kept in a separate, private location. It must never be merged into this repo. This repo is Karpathy's thinking only, so that his ideas and the maintainer's inferences never blur.

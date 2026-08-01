@@ -11,18 +11,18 @@ Repo structured per the LLM Wiki three-layer pattern: raw source cards (links, n
 Source: https://github.com/karpathy/llm-council (vibe-coded weekend hack, 22 Nov 2025). Inserted in `sources.md` between VER and SoM.
 
 **Reinforced** (added `[LC]` tag, text unchanged):
-- P6 (jagged intelligence has two axes) — the council pattern exploits inter-model jaggedness.
-- P22 (startup wedge: valuable plus verifiable plus undertrained) — Karpathy's "council of LLM judges" gesture is now realised in code.
-- P25 (vibe coding raises the floor; agentic engineering raises the ceiling) — Karpathy calls the repo "99% vibe coded".
-- P61 (structural overproduction of bespoke apps) — Karpathy's "libraries are over" line matches the thesis.
-- P97 (vibe coding terraforms software) — "Code is ephemeral now and libraries are over" is the strongest version of the principle's claim yet.
+- P6 (jagged intelligence has two axes). The council pattern exploits inter-model jaggedness.
+- P22 (startup wedge: valuable plus verifiable plus undertrained). Karpathy's "council of LLM judges" gesture is now realised in code.
+- P25 (vibe coding raises the floor; agentic engineering raises the ceiling). Karpathy calls the repo "99% vibe coded".
+- P61 (structural overproduction of bespoke apps). Karpathy's "libraries are over" line matches the thesis.
+- P97 (vibe coding terraforms software). "Code is ephemeral now and libraries are over" is the strongest version of the principle's claim yet.
 
 **Sharpened:** none.
 
 **Contradicted:** none.
 
 **Added:**
-- P113 (Part 5: agentic engineering) — The LLM Council pattern. Parallel answers, anonymised cross-ranking, chairman synthesis. Caveat: chairman is itself a single model, so the pattern reduces but does not eliminate single-model dependency.
+- P113 (Part 5: agentic engineering). The LLM Council pattern. Parallel answers, anonymised cross-ranking, chairman synthesis. Caveat: chairman is itself a single model, so the pattern reduces but does not eliminate single-model dependency.
 
 ## [2026-06-01] lint
 First monthly lint pass (per P83). Read the full ledger against the six checks in AGENTS.md: 13 principle files, 14 source cards, index, sources, cross-threads, open-questions, both READMEs. Index and principle files were in sync, P1 to P113 a complete sequence, no orphaned cross-references.
@@ -43,6 +43,25 @@ First monthly lint pass (per P83). Read the full ledger against the six checks i
 **Not changed this pass (by design):**
 - FT-CW and FT-OB cards have no link ("source not retained"); kept as honest markers.
 - P60 placement (sits in Part 3, reads as Part 5 material); not moved, since ids are permanent and only the section file would change.
+
+## [2026-08-01] lint
+Second lint pass, one month late: the July pass was missed, which is P83 failing on its own ledger. Ledger content had not changed since the 2026-06-01 pass (all intervening commits are watcher state), so every finding is a miss from that pass or time-based drift, not new editorial damage.
+
+**Structural checks, all clean:** P1 to P115 complete with no gaps and no duplicate definitions (the P56 double-entry is the deliberate Part 9 pointer); index and principle files in sync at 116 entries each; zero orphaned cross-references; every source tag resolves to `sources.md`; all thirteen source cards carry all six required fields; every key-claim bullet in `raw/` maps to a principle id.
+
+**Found and fixed (human-triaged):**
+- Silent contradiction, the significant one. P52 (Karpathy-direct) and P84 (field-test) both require findings to flow back into the wiki; `AGENTS.md` (Outputs) and `outputs/README.md` forbid exactly that. The schema's reasoning is sound (single-author purity) but the tension was resolved silently in the schema's favour, which is the no-smoothing rule (P79) failing at the schema-versus-principle boundary. Flagged in P52 and P84 with a reciprocal note in `AGENTS.md`; neither principle softened or deleted.
+- Silent contradiction. P3 ("not a discontinuity", "no single magic moment", DWA Oct 2025) against P2 (a single-month flip Karpathy calls an inflection, six weeks later, generalised to "a full professional generation behind"). Reconcilable, since P3 describes the structural arc and P2 one practitioner's adoption curve, but marked rather than assumed, mirroring the P4 remedy from the previous pass. P36 noted as sitting with P3.
+- Stale count. README said "ten primary Karpathy sources"; `sources.md` has listed eleven since the LC ingest. The previous pass fixed this class for principle counts and missed it for sources. Now "eleven".
+- Stale framing. README Status read as current at three months old with no ingest since 28 May 2026. Added a last-lint line pointing at this entry.
+- Convention. Nineteen fixes: eighteen em-dashes against the "no em-dashes anywhere" rule (`log.md`, `.watch/README.md`, `.claude/commands/lint.md`; ledger prose was already clean), plus an orphaned reference in `.watch/README.md` to `.github/scripts/karpathy_watch.py`, which the workflow actually runs as `.github/scripts/watch.py`. Em-dashes in this file's own earlier entry were normalised on the reading that the append-only rule protects facts, not punctuation.
+
+**Found, deferred (recorded, not actioned):**
+- Coverage gap, the one worth acting on. Five Karpathy-direct bearblog posts sit in the watcher's seen-list with no source card, no `sources.md` row, and no logged scope decision: `power-to-the-people`, `vibe-coding-menugen`, `chemical-hygiene`, `auto-grade-hn`, `finding-the-best-sleep-tracker`. Two bear on attribution: P20 and P40 rest on MenuGen via `[SEQ-B]`, and P100 is titled "Power to the people" via `[YR25]`, while dedicated primary essays exist unread. AGENTS.md ranks direct essays authoritative, so these principles may be sourced to secondary retellings. Not fixed here: lint does not ingest, and AGENTS.md reserves source curation to the human.
+- Imprecise dates. AR is month-only ("Mar 2026"), WIKI is year-only ("2026"). The previous pass fixed this class for DWA and NP. Not fixed here because the true dates need verification against the sources; a guessed date is worse than a vague one.
+- Stale framing, watch item only. P96 ("Localhost beats cloud for agents in the current era", YR25 Dec 2025) is the most time-sensitive claim in the ledger. No newer Karpathy source supersedes it, and inventing a supersession would breach the supersede-don't-delete rule. Watch it.
+- `sources.md` field-test table carries no Date column while the direct table does. Cosmetic.
+- The watcher rewrites `.watch/state.json` in a different order on every run, so it commits a diff even when nothing is new (61 such commits since the last lint). Sorting the seen-lists would make real changes visible.
 
 ## How to add the next entry
 When ingesting a new source, append a dated line in the form:

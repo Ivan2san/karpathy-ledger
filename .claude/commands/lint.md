@@ -10,12 +10,12 @@ Run the lint workflow on the Karpathy Ledger as defined in @AGENTS.md (§Lint wo
 
 Check for:
 
-1. **Silent supersessions** — principles that newer sources have effectively superseded but that were never marked `SUPERSEDED`.
-2. **Orphaned cross-references** — a principle citing another `P<n>` that no longer exists, has moved, or has been renamed.
-3. **Missing principles** — concepts mentioned repeatedly across sources or principles that lack their own `P<n>` entry.
-4. **Silent contradictions** — tensions that crept in between sections without being flagged (P79 violations).
-5. **Source card hygiene** — cards in `raw/` missing links, dates, weight, or tag.
-6. **Stale framing** — anything that reads as current but predates a known shift (for example pre-December 2025 framing on agentic capabilities after the P2 inflection point).
+1. **Silent supersessions.** Principles that newer sources have effectively superseded but that were never marked `SUPERSEDED`.
+2. **Orphaned cross-references.** A principle citing another `P<n>` that no longer exists, has moved, or has been renamed.
+3. **Missing principles.** Concepts mentioned repeatedly across sources or principles that lack their own `P<n>` entry.
+4. **Silent contradictions.** Tensions that crept in between sections without being flagged (P79 violations).
+5. **Source card hygiene.** Cards in `raw/` missing links, dates, weight, or tag.
+6. **Stale framing.** Anything that reads as current but predates a known shift (for example pre-December 2025 framing on agentic capabilities after the P2 inflection point).
 
 For each finding, report:
 - Where it is (file + principle id or line)

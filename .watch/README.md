@@ -5,10 +5,10 @@ Daily GitHub Action that polls Karpathy's publishing channels and opens an Issue
 ## What it watches
 
 **RSS (cheap, reliable):**
-- GitHub activity — `https://github.com/karpathy.atom` (new repos, gists, pushes)
-- Bearblog — `https://karpathy.bearblog.dev/feed/`
-- YouTube — channel atom feed (channel ID auto-resolved on first run)
-- Medium — `https://karpathy.medium.com/feed` (near-dead, but cheap to keep watching)
+- GitHub activity. `https://github.com/karpathy.atom` (new repos, gists, pushes)
+- Bearblog. `https://karpathy.bearblog.dev/feed/`
+- YouTube. Channel atom feed (channel ID auto-resolved on first run)
+- Medium. `https://karpathy.medium.com/feed` (near-dead, but cheap to keep watching)
 
 **HTML diff (noisier, but no RSS available):**
 - `https://karpathy.ai/`
@@ -16,13 +16,13 @@ Daily GitHub Action that polls Karpathy's publishing channels and opens an Issue
 
 ## What it does not watch (and why)
 
-- **X / Twitter** — no public RSS, paid API would cost ~$100/mo, scraping is fragile. Accepted gap; scan manually when you check X anyway.
-- **Third-party podcasts and talks** — unenumerable in advance. Use Google Alerts for `"Andrej Karpathy" -site:karpathy.ai` and do a quarterly podcast-feed scan if it matters.
+- **X / Twitter.** No public RSS, paid API would cost ~$100/mo, scraping is fragile. Accepted gap; scan manually when you check X anyway.
+- **Third-party podcasts and talks.** Unenumerable in advance. Use Google Alerts for `"Andrej Karpathy" -site:karpathy.ai` and do a quarterly podcast-feed scan if it matters.
 
 ## How it runs
 
 - `.github/workflows/karpathy-watch.yml` runs daily at 00:00 UTC (~10:00 AEST) and on manual `workflow_dispatch`.
-- `.github/scripts/karpathy_watch.py` does the polling.
+- `.github/scripts/watch.py` does the polling.
 - `.watch/state.json` is the persisted state: last-seen feed item IDs, last-seen page SHAs, the resolved YouTube channel ID. Committed back to the repo by the workflow when it changes.
 
 ## First run

@@ -6,7 +6,7 @@ This repo is itself an instance of the [LLM Wiki pattern](https://gist.github.co
 
 ## What this is
 
-A set of ~115 principles distilled from ten primary Karpathy sources (essays, podcasts, repos) plus two community implementation reports. Each principle is paraphrased in plain language and tagged to its source so any claim can be traced back. The principles are organised into thirteen sections that run, roughly, from the deepest philosophical foundation up to day-to-day operating practice.
+A set of ~115 principles distilled from eleven primary Karpathy sources (essays, podcasts, repos) plus two community implementation reports. Each principle is paraphrased in plain language and tagged to its source so any claim can be traced back. The principles are organised into thirteen sections that run, roughly, from the deepest philosophical foundation up to day-to-day operating practice.
 
 The intellectual arc is coherent and chronological. It starts from "what is an LLM, at the level of optimisation pressure" (the Space of Minds and Animals vs Ghosts essays) and builds up through capability theory (Verifiability, RLVR), the state of the field (the 2025 Year in Review), and finally operating practice (AutoResearch, the No Priors conversation, the Sequoia talk, the LLM Wiki gist).
 
@@ -44,6 +44,8 @@ Karpathy-direct sources are authoritative. Community/field-test sources are weig
 ## Status
 
 Synthesised through May 2026. Karpathy joined Anthropic on 19 May 2026; future sources from him will likely be more guarded on lab-internal topics. The ledger is a snapshot of his public thinking up to that point, kept current by ongoing ingest.
+
+Last lint: 1 August 2026. No new source has been ingested since 28 May 2026, so the synthesis window is unchanged; the coverage gaps identified at that lint are recorded in `log.md`.
 
 ## Licence
 
