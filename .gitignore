@@ -14,3 +14,7 @@ raw/_local/
 # so the layer's intent is documented in the public repo.
 outputs/*
 !outputs/README.md
+
+# Python bytecode from the watcher script
+__pycache__/
+*.pyc
