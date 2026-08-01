@@ -6,7 +6,7 @@ This repo is itself an instance of the [LLM Wiki pattern](https://gist.github.co
 
 ## What this is
 
-A set of ~115 principles distilled from thirteen primary Karpathy sources (essays, podcasts, repos) plus two community implementation reports. Each principle is paraphrased in plain language and tagged to its source so any claim can be traced back. The principles are organised into thirteen sections that run, roughly, from the deepest philosophical foundation up to day-to-day operating practice.
+A set of ~116 principles distilled from fourteen primary Karpathy sources (essays, podcasts, repos) plus two community implementation reports. Each principle is paraphrased in plain language and tagged to its source so any claim can be traced back. The principles are organised into thirteen sections that run, roughly, from the deepest philosophical foundation up to day-to-day operating practice.
 
 The intellectual arc is coherent and chronological. It starts from "what is an LLM, at the level of optimisation pressure" (the Space of Minds and Animals vs Ghosts essays) and builds up through capability theory (Verifiability, RLVR), the state of the field (the 2025 Year in Review), and finally operating practice (AutoResearch, the No Priors conversation, the Sequoia talk, the LLM Wiki gist).
 
@@ -25,7 +25,7 @@ index.md             catalog of every principle and section
 log.md               chronological record of every ingest and revision
 raw/                 immutable source cards (links + paraphrased summaries)
 wiki/
-  principles/        one file per section, P1 through P115
+  principles/        one file per section, P1 through P116
   sources.md         the chronological source map with tags
   cross-threads.md   threads that span multiple sources
   open-questions.md  unresolved threads worth watching

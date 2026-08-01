@@ -94,6 +94,27 @@ Source: https://karpathy.bearblog.dev/vibe-coding-menugen/ (essay, 27 Apr 2025).
 
 **Added:** no new principle. Everything in the essay lands on existing ids. The temptation was to mint one for the build-versus-ship asymmetry, but that is what P40 already says.
 
+## [2026-08-01] ingest | Auto-grading Hacker News
+Source: https://karpathy.bearblog.dev/auto-grade-hn/ (essay, 10 Dec 2025). Tagged `AGH`. Inserted in `sources.md` between SoM and YR25.
+
+**Scope note.** Unlike PTP and MG this one is in-window and on-topic. It was simply missed, at the original build and again at the 2026-06-01 lint. It is the only true omission of the five posts the 2026-08 lint flagged; the other four are explained by the corpus window or by subject matter.
+
+**Reinforced:**
+- P22 (the startup wedge: valuable plus verifiable plus undertrained). Grading old predictions is latent verifiable structure of the cleanest kind, since the outcomes are already known and the reward signal is therefore free. Now `[SEQ-T 15:14, SEQ-B, LC, AGH]`.
+- P24 (information processing is the real prize). The experiment is a clean instance of the "what was impossible before" test. Now `[SEQ-T 7:24, SEQ-B, WIKI, AGH]`.
+
+**Sharpened:** none.
+
+**Contradicted:** none.
+
+**Added:**
+- P116 (Part 4). The past becomes legible, so present conduct compounds forward. Verified against the source before minting, because a new principle should not rest on a summary: the claim that cheap enough intelligence permits a perfect reconstruction of the past is a load-bearing section of the essay, not an aside, and Karpathy connects it explicitly to present conduct. Nothing in P1 to P115 covered it. Tagged `[AGH]`.
+
+**Scope decisions recorded, so future lints stop re-flagging these:**
+- `chemical-hygiene` (18 Dec 2025) is in-window but off-topic: personal health and chemical exposure, nothing to do with LLMs or agentic engineering. Excluded by the ledger's stated scope.
+- `finding-the-best-sleep-tracker` (24 Mar 2025) is both pre-window and off-topic: consumer sleep-tracking hardware. Excluded.
+- Neither exclusion was previously written down, which is why the lint flagged all five posts together. Karpathy's bearblog carries material outside this ledger's subject; absence from `sources.md` is not by itself evidence of a miss.
+
 ## How to add the next entry
 When ingesting a new source, append a dated line in the form:
 `## [YYYY-MM-DD] ingest | <Source title>`

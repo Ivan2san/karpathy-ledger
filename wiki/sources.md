@@ -13,6 +13,7 @@ Chronological. Karpathy-direct sources are authoritative. Field-test sources are
 | VER | 17 Nov 2025 | essay | Verifiability | https://karpathy.bearblog.dev/verifiability/ |
 | LC | 22 Nov 2025 | repo | LLM Council | https://github.com/karpathy/llm-council |
 | SoM | 30 Nov 2025 | essay | The Space of Minds | https://karpathy.bearblog.dev/the-space-of-minds/ |
+| AGH | 10 Dec 2025 | essay | Auto-grading Hacker News | https://karpathy.bearblog.dev/auto-grade-hn/ |
 | YR25 | 20 Dec 2025 | essay | 2025 LLM Year in Review | https://karpathy.bearblog.dev/year-in-review-2025/ |
 | AR | Mar 2026 | repo | AutoResearch README | https://github.com/karpathy/autoresearch |
 | NP | 20 Mar 2026 | podcast | No Priors interview (Code Agents, AutoResearch, and the Loopy Era of AI) | https://www.youtube.com/watch?v=kwSVtQ7dziU |

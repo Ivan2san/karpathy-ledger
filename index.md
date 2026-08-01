@@ -45,6 +45,7 @@ Catalog of every principle by section. IDs are permanent and never reused.
 - P24 Information processing, not just code, is the real prize
 - P56 The Software 3.0 predicate (inferred): integratability
 - P61 Structural overproduction of bespoke apps
+- P116 The past becomes legible, so present conduct compounds forward
 
 ## Part 5: Agentic engineering as a discipline
 - P25 Vibe coding raises the floor; agentic engineering raises the ceiling
