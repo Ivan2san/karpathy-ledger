@@ -6,6 +6,7 @@ Chronological. Karpathy-direct sources are authoritative. Field-test sources are
 
 | Tag | Date | Type | Title | Link |
 |-----|------|------|-------|------|
+| PTP | 7 Apr 2025 | essay | Power to the People (pre-window, see note) | https://karpathy.bearblog.dev/power-to-the-people/ |
 | AvG | 2 Oct 2025 | essay | Animals vs Ghosts | https://karpathy.bearblog.dev/animals-vs-ghosts/ |
 | DWA | 17 Oct 2025 | podcast | Dwarkesh Patel interview (AGI is still a decade away) | https://www.dwarkesh.com/p/andrej-karpathy |
 | VER | 17 Nov 2025 | essay | Verifiability | https://karpathy.bearblog.dev/verifiability/ |
@@ -27,6 +28,7 @@ Chronological. Karpathy-direct sources are authoritative. Field-test sources are
 
 ## Timing notes
 
+- **Pre-window sources.** The declared corpus window is Oct 2025 to Apr 2026. A small number of earlier sources are backfilled as named exceptions, because they are the primary statement of a claim the ledger had tagged to a later restatement. They are marked "pre-window" in the table above. The window itself has not moved, so Apr to Oct 2025 remains deliberately uncovered; do not read the corpus as complete for that span.
 - The corpus runs Oct 2025 to Apr 2026 and reads coherently top to bottom: optimisation-pressure foundation (AvG, SoM), capability theory (VER, RLVR in YR25), state of the field (YR25), then operating practice (AR, NP, SEQ, WIKI).
 - The December 2025 inflection point (P2) falls just after the Year in Review was written.
 - Karpathy joined Anthropic on 19 May 2026. Future direct sources will likely be more guarded on lab-internal topics.

@@ -22,6 +22,8 @@ Unresolved threads worth watching. Update or close as new sources arrive.
 
 - **Where does lab-versus-app value capture land?** P95 is Karpathy's bet, not a finding. The next 18 months will resolve it.
 
+- **Does the diffusion inversion survive tiered pricing?** P100 holds only while frontier performance stays cheap and roughly undifferentiated, and Karpathy names the failure condition explicitly: the moment money buys materially better models, institutions reconcentrate and an elite splits away. Distillation is the current counterforce; scaling and ensembles push the other way. The observable signal is whether a paid tier ever delivers a capability gap rather than just higher limits or faster responses. Watch it, because P100 is one of the few principles with a stated expiry condition.
+
 - **What new optimisation pressures could the labs introduce?** P112 makes this the operative question. Embodiment via robotics, multi-agent self-play, intrinsic curiosity rewards: each would shift the asymptote. Track which lab introduces which first.
 
 - **How does Karpathy himself handle the editorial trap (P75)?** The gist keeps raw immutable but does not specify a scheduled workflow for auditing AI editorial choices against raw. Watch for a follow-up.

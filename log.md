@@ -63,6 +63,20 @@ Second lint pass, one month late: the July pass was missed, which is P83 failing
 - `sources.md` field-test table carries no Date column while the direct table does. Cosmetic.
 - The watcher rewrites `.watch/state.json` in a different order on every run, so it commits a diff even when nothing is new (61 such commits since the last lint). Sorting the seen-lists would make real changes visible.
 
+## [2026-08-01] ingest | Power to the People
+Source: https://karpathy.bearblog.dev/power-to-the-people/ (essay, 7 Apr 2025). Tagged `PTP`. Backfilled from the coverage gap recorded in this morning's lint.
+
+**Scope note.** This source predates the declared corpus window (Oct 2025 to Apr 2026) by six months. Admitted as a named exception because it is the primary statement of P100, which had been tagged only to the YR25 restatement of Dec 2025. The window itself has not moved: Apr to Oct 2025 remains deliberately uncovered, and `sources.md` now says so rather than leaving the omission to be inferred.
+
+**Reinforced:** none beyond P100 itself.
+
+**Sharpened:**
+- P100 (power to the people). The principle read as a settled inversion. The primary source makes it contingent and names its failure condition: it holds only while frontier performance stays cheap and roughly undifferentiated, distillation is the current counterforce, and train-time and test-time scaling plus ensembles push the other way by tying performance to spend. If money buys materially better models, institutions reconcentrate and an elite splits from the rest. Tag now `[PTP, YR25]`. This is a material change to the principle's operational advice, not a citation tidy-up.
+
+**Contradicted:** none. The YR25 restatement is faithful, just compressed; it dropped the caveat rather than contradicting it.
+
+**Added:** no new principle. The contingency is a sharpening of P100, not a separate claim. Added instead to `open-questions.md` as a watch item, since P100 is now one of the few principles carrying a stated expiry condition.
+
 ## How to add the next entry
 When ingesting a new source, append a dated line in the form:
 `## [YYYY-MM-DD] ingest | <Source title>`
