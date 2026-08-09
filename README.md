@@ -45,7 +45,7 @@ Karpathy-direct sources are authoritative. Community/field-test sources are weig
 
 Synthesised through May 2026. Karpathy joined Anthropic on 19 May 2026; future sources from him will likely be more guarded on lab-internal topics. The ledger is a snapshot of his public thinking up to that point, kept current by ongoing ingest.
 
-Last lint: 1 August 2026. No new source has been ingested since 28 May 2026, so the synthesis window is unchanged; the coverage gaps identified at that lint are recorded in `log.md`.
+Last lint: 1 August 2026. Three sources were ingested the same day, two as named pre-window exceptions, so the synthesis window is unchanged; the coverage gaps that lint identified are now closed or recorded as scope decisions in `log.md`.
 
 ## Licence
 
