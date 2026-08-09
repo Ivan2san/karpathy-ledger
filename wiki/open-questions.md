@@ -28,6 +28,8 @@ Unresolved threads worth watching. Update or close as new sources arrive.
 
 - **How does Karpathy himself handle the editorial trap (P75)?** The gist keeps raw immutable but does not specify a scheduled workflow for auditing AI editorial choices against raw. Watch for a follow-up.
 
+- **Are hyper-custom ephemeral worlds a real category?** LOTR (Aug 2026) makes the economic claim that model stamina, not speed, turns work no one would ever have funded into work that is "sure, why not, it's ~free". Karpathy's forward bet is single-use generated worlds a player can be dropped into, an "ephemeral GTA of X on demand". He presents this as excitement rather than a finding, so it is recorded here rather than minted as a principle. The observable signal is whether anyone ships a generated world that someone other than the person who commissioned it willingly spends time in. Capped for now by P118, since the generator cannot yet watch its own output. Related: P97, P61, P103.
+
 ## Closed threads
 
 - **The ghosts-versus-animals philosophical foundation.** Covered by P14 and P104 to P112. The framing is complete, predictive, and grounded in optimisation pressures. The early hedge ("a little philosophical") is upgraded by the Space of Minds essay into something with predictive power (P111).

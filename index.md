@@ -20,6 +20,7 @@ Catalog of every principle by section. IDs are permanent and never reused.
 - P12 If not verifiable, you are betting on generalisation or imitation
 - P58 The PhD-plus-ten-year-old superposition
 - P59 Cross-domain generalisation is not happening at the claimed rate
+- P118 An agent can only iterate on what it can perceive
 
 ## Part 3: Mental models for how LLMs work
 - P13 Weights are hazy recollection; context is working memory

@@ -133,6 +133,33 @@ Source: https://x.com/karpathy/status/2079610838143623371 (post, 22 Jul 2026). T
 **Added:**
 - P117 (Part 5). Raise the bandwidth of the brief, not its polish. Verified against the post before minting rather than against coverage of it. Nothing in P1 to P116 makes the bandwidth-over-polish claim: P47 says the brief is the artefact, P27 says specs are collaborative, neither says the input can be deliberately unpolished because the model supplies the polish. Tagged `[RAM]`.
 
+## [2026-08-10] ingest | Lord of the Rings rendered by Opus 5
+Source: https://x.com/karpathy/status/2083749667410727319 (post, 2 Aug 2026). Tagged `LOTR`. The post's artefact, https://karpathy.ai/lotr-movie, is Karpathy-direct and is recorded on the same source row rather than as a separate entry, since it is the output of the experiment the post describes.
+
+**Field-test tier unchanged, and a tier error corrected before commit.** The first pass of this ingest added `FT-SW` for Simon Willison's pelican-on-a-bicycle test, which the post names as the thing it generalises beyond. That was wrong and the row has been removed. The field-test tier is for practitioner implementations of Karpathy's ideas, the thing FT-OB and FT-CW are; a benchmark cited inside a Karpathy post is neither an implementation nor a practitioner report on one. Putting it there would have created a source tier that means two different things. The reference now sits in `raw/lotr-movie.md` as context for the post, with the link, which is where a thing Karpathy points at belongs when it is not itself a ledger source. No principle or tag references FT-SW.
+
+**Reinforced:**
+- P6 (jagged intelligence has two axes). A model that writes 5500 lines of working render code cannot watch the result play. Now `[SEQ-B, VER, LC, LOTR]`.
+- P24 (information processing is the real prize). A paragraph of prose in, a navigable animated world out, with no classical program conceivable in between. Now `[SEQ-T 7:24, SEQ-B, WIKI, AGH, LOTR]`.
+- P35 (demos are encouraging, not informative). Karpathy applies this to his own artefact, presenting it as janky on purpose. Now `[DWA 01:45:00, LOTR]`.
+
+**Sharpened:**
+- P101 (benchmark trust collapse). Extended from formal benchmarks to informal vibe checks, which decay by a different mechanism: not gaming, just being outgrown. The operational consequence is that your own evals need a refresh cadence, not only independence from public benchmarks. Now `[YR25, LOTR]`.
+- P21 (the verifiability environment test). The three legs assume the agent can observe an attempt well enough to score it. This source shows perception failing before scoring does, so the test needs a prior question about the output medium. Now `[VER, LOTR]`.
+- P97 (vibe coding terraforms software). The principle said code is disposable. This source names the mechanism, which is stamina rather than speed, and extends the claim past code to artefacts of any size: work no human would fund because it is too tedious becomes nearly free. Now `[YR25, LC, LOTR]`. The earlier guard on P97 was scoped to the pre-window vibe-coding attribution question and was lifted for this ingest only; no pre-window tag was added here, and that question stays open for P97, P25 and P19.
+
+**Contradicted:** none.
+
+**Added:**
+- P118 (Part 2). An agent can only iterate on what it can perceive. Verified against the post before minting. The claim is about perception, not judgement, and nothing in P1 to P117 covers it: P21 asks whether an attempt can be scored, P9 covers judges being gamed, P33 covers the frozen evaluator. None of them ask whether the agent can see its own output at all. Tagged `[LOTR]`.
+
+**Recorded, not minted:**
+- The forward bet on hyper-custom single-use worlds went to `open-questions.md` rather than becoming a principle, since the source presents it as excitement rather than a finding. Same treatment as the PTP contingency on 2026-08-01.
+
+**Not changed this pass (by design):**
+- The pre-window primary-source attribution question for P97, P25 and P19. Whether those principles rest on secondary retellings is a separate matter from this ingest and remains open.
+- Deferred items from the 2026-08 lint (AR and WIKI dates, the P96 watch, the state.json ordering, the field-test Date column) remain open.
+
 ## How to add the next entry
 When ingesting a new source, append a dated line in the form:
 `## [YYYY-MM-DD] ingest | <Source title>`

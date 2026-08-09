@@ -2,7 +2,7 @@
 
 **P34. The march of nines.** Demo to product is the slog. Each nine of reliability is the same amount of work. Self-driving lived through several nines over five years and is still not "done". Software shares the safety property, with more surface area. `[DWA 01:42:55]`
 
-**P35. Demos are encouraging, not informative.** Be unimpressed by demos. The product is where reality hits and where the timeline actually lives. `[DWA 01:45:00]`
+**P35. Demos are encouraging, not informative.** Be unimpressed by demos. The product is where reality hits and where the timeline actually lives. Karpathy applies this to his own artefacts: the LOTR render is presented as janky on purpose, a capability probe rather than a product claim, and the jank is the interesting data because it localises the missing capability (P118). `[DWA 01:45:00, LOTR]`
 
 **P36. Deployment is not full replacement, it is the autonomy slider.** An 80/20 split first, with humans supervising teams of agents, then 90/10 over time. New interfaces emerge for managing imperfect agents. `[DWA 01:11:00]`
 

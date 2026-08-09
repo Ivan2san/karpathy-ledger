@@ -21,6 +21,7 @@ Chronological. Karpathy-direct sources are authoritative. Field-test sources are
 | SEQ-T | 30 Apr 2026 | talk (transcript) | Sequoia Ascent 2026 fireside, full transcript | https://www.youtube.com/watch?v=96jN2OCOfLs |
 | WIKI | 2026 | gist | LLM Wiki | https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f |
 | RAM | 22 Jul 2026 | post | Ramble sessions with LLMs | https://x.com/karpathy/status/2079610838143623371 |
+| LOTR | 2 Aug 2026 | post | Lord of the Rings rendered by Opus 5 (artefact at https://karpathy.ai/lotr-movie) | https://x.com/karpathy/status/2083749667410727319 |
 
 ## Field-test (community implementations, weighted lower)
 
