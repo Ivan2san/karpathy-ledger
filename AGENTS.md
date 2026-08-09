@@ -62,7 +62,7 @@ Lint is the operation most maintainers skip, and skipping it is how a wiki drift
 # <Source title>
 
 - Tag: <e.g. SoM>
-- Type: essay | podcast | repo | talk | community
+- Type: essay | podcast | repo | talk | post | community
 - Author: Andrej Karpathy | <other>
 - Date: <DD Mon YYYY>
 - Weight: direct | field-test

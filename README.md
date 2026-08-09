@@ -1,6 +1,6 @@
 # Karpathy Ledger
 
-A living, source-tagged synthesis of Andrej Karpathy's public thinking on LLMs and agentic engineering, covering October 2025 to April 2026.
+A living, source-tagged synthesis of Andrej Karpathy's public thinking on LLMs and agentic engineering, covering October 2025 onward.
 
 This repo is itself an instance of the [LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) Karpathy described: a persistent, compounding knowledge artefact maintained by an agent, where knowledge is compiled once and kept current rather than re-derived on every query. The agent writes; the human curates, sources, and questions.
 

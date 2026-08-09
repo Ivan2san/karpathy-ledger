@@ -30,8 +30,9 @@ Chronological. Karpathy-direct sources are authoritative. Field-test sources are
 
 ## Timing notes
 
-- **Pre-window sources.** The declared corpus window is Oct 2025 to Apr 2026. A small number of earlier sources are backfilled as named exceptions, because they are the primary statement of a claim the ledger had tagged to a later restatement. They are marked "pre-window" in the table above. The window itself has not moved, so Apr to Oct 2025 remains deliberately uncovered; do not read the corpus as complete for that span.
-- The corpus runs Oct 2025 to Apr 2026 and reads coherently top to bottom: optimisation-pressure foundation (AvG, SoM), capability theory (VER, RLVR in YR25), state of the field (YR25), then operating practice (AR, NP, SEQ, WIKI).
+- **The corpus window.** The declared window opens in Oct 2025 and has no closing date: it runs forward to the present and stays open as new sources appear. It previously closed at Apr 2026; that ceiling was an artefact of when the ledger was built, not a judgement about the material, and it has been removed.
+- **The backward gap is deliberate.** Anything before Oct 2025 is outside the window by choice, not by oversight. Karpathy published for years beforehand and that earlier body of work is not in scope here; absence from this table is not evidence of a miss. PTP (Apr 2025) and MG (Apr 2025) remain the only named pre-window exceptions, backfilled because each is the primary statement of a claim the ledger had tagged to a later restatement. They are marked "pre-window" in the table above. Admitting them did not move the opening boundary, so Apr to Oct 2025 remains deliberately uncovered; do not read the corpus as complete for that span.
+- The corpus reads coherently top to bottom: optimisation-pressure foundation (AvG, SoM), capability theory (VER, RLVR in YR25), state of the field (YR25), then operating practice (AR, NP, SEQ, WIKI).
 - The December 2025 inflection point (P2) falls just after the Year in Review was written.
 - Karpathy joined Anthropic on 19 May 2026. Future direct sources will likely be more guarded on lab-internal topics.
 
