@@ -1,6 +1,6 @@
 # Part 3: Mental models for how LLMs actually work
 
-**P13. Weights are hazy recollection; the context window is working memory.** Anything in context is directly accessible. Anything in weights is lossily compressed. Feeding a full chapter beats asking about the book. This drives all context-engineering decisions. `[DWA 00:17:00]`
+**P13. Weights are hazy recollection; the context window is working memory.** Anything in context is directly accessible. Anything in weights is lossily compressed. Feeding a full chapter beats asking about the book. This drives all context-engineering decisions. The ramble session (P117) is the principle applied to intent rather than to reference material: the cheapest way to move bits about what you actually want out of your head and into the context window. `[DWA 00:17:00, RAM]`
 
 **P14. Ghosts, not animals.** LLMs are not failed attempts at animal intelligence; they are a different point in the space of possible intelligences, arising from imitation of human text rather than evolution. Anthropomorphic intuitions mislead. Karpathy's own caveat is that the framing is "a little philosophical", but the Space of Minds essay (Part 13) upgrades it into something with predictive power. `[AvG, SEQ-T 24:25, DWA 00:07:00]`
 

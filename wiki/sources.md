@@ -20,6 +20,7 @@ Chronological. Karpathy-direct sources are authoritative. Field-test sources are
 | SEQ-B | 30 Apr 2026 | talk (blog summary) | Sequoia Ascent 2026 summary | https://karpathy.bearblog.dev/sequoia-ascent-2026/ |
 | SEQ-T | 30 Apr 2026 | talk (transcript) | Sequoia Ascent 2026 fireside, full transcript | https://www.youtube.com/watch?v=96jN2OCOfLs |
 | WIKI | 2026 | gist | LLM Wiki | https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f |
+| RAM | 22 Jul 2026 | post | Ramble sessions with LLMs | https://x.com/karpathy/status/2079610838143623371 |
 
 ## Field-test (community implementations, weighted lower)
 

@@ -115,6 +115,24 @@ Source: https://karpathy.bearblog.dev/auto-grade-hn/ (essay, 10 Dec 2025). Tagge
 - `finding-the-best-sleep-tracker` (24 Mar 2025) is both pre-window and off-topic: consumer sleep-tracking hardware. Excluded.
 - Neither exclusion was previously written down, which is why the lint flagged all five posts together. Karpathy's bearblog carries material outside this ledger's subject; absence from `sources.md` is not by itself evidence of a miss.
 
+## [2026-08-10] ingest | Ramble sessions with LLMs
+Source: https://x.com/karpathy/status/2079610838143623371 (post, 22 Jul 2026). Tagged `RAM`. First source ingested under the reopened corpus window and the new `post` type.
+
+**Date note.** The post renders as 21 Jul 2026 in its own timezone and 22 Jul 2026 in Australian time. The maintainer supplied 22 Jul, so the table uses that; the one-day ambiguity is recorded here rather than silently picked.
+
+**Reinforced:**
+- P13 (weights hazy, context is working memory). The ramble is this principle applied to intent rather than to reference material. Now `[DWA 00:17:00, RAM]`.
+- P27 (spec design beats plan mode). The ramble is a low-cost input mode feeding spec work, including Karpathy's variant where it becomes a short interview. Now `[SEQ-T 20:43, RAM]`.
+
+**Sharpened:**
+- P47 (the human's job is the brief). The principle established that the brief is the artefact. This source says what makes a brief good, and it is not polish: it is how much intent reaches the model. Unstructured speech is the cheap way to raise that. Now `[AR, RAM]`.
+
+**Contradicted:** none outright, but one tension recorded.
+- P44 (you can outsource thinking, not understanding). Karpathy reports that the model's echo of a messy ramble often reads cleaner than his own starting formulation, which is the model doing part of the articulating. Flagged in P44 and left standing: the line holds only if articulation is separated from understanding. Recorded rather than resolved, per P79.
+
+**Added:**
+- P117 (Part 5). Raise the bandwidth of the brief, not its polish. Verified against the post before minting rather than against coverage of it. Nothing in P1 to P116 makes the bandwidth-over-polish claim: P47 says the brief is the artefact, P27 says specs are collaborative, neither says the input can be deliberately unpolished because the model supplies the polish. Tagged `[RAM]`.
+
 ## How to add the next entry
 When ingesting a new source, append a dated line in the form:
 `## [YYYY-MM-DD] ingest | <Source title>`
