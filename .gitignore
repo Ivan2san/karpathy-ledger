@@ -18,3 +18,4 @@ outputs/*
 # Python bytecode from the watcher script
 __pycache__/
 *.pyc
+.codex/
